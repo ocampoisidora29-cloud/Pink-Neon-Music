@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Pink Neon Music</title>
+  <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body class="login-page">
+  <main class="login-shell">
+    <section class="login-intro">
+      <p class="eyebrow">Pink Neon Music</p>
+      <h1>Acceso musical</h1>
+      <p>Registra tu usuario y entra. 
+        
+        Después irás a una página con eventos, usuario y portadas de albumes.</p>
+    </section>
+
+    <section class="forms-panel">
+      <form id="loginForm" class="form-card">
+        <h2>Iniciar sesion</h2>
+
+        <label for="loginEmail">Correo electronico</label>
+        <input id="loginEmail" type="email" placeholder="usuario@email.com" required>
+
+        <label for="loginPassword">Contraseña</label>
+        <input id="loginPassword" type="password" placeholder="Admin1234" required>
+
+        <button type="submit" class="primary-button">Entrar</button>
+        <p id="loginMessage" class="message" role="status"></p>
+      </form>
+
+      <form id="registerForm" class="form-card accent-card">
+        <h2>Crear usuario</h2>
+
+        <label for="registerName">Nombre</label>
+        <input id="registerName" type="text" placeholder="Ej. Lucia Vega" required>
+
+        <label for="registerEmail">Correo electronico</label>
+        <input id="registerEmail" type="email" placeholder="lucia@email.com" required>
+
+        <button type="submit" class="secondary-button">Crear usuario</button>
+        <p id="registerMessage" class="message" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <script src="JAVASCRIPT/script.js"></script>
+  
+</body>
+</html>
